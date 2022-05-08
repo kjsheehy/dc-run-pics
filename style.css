@@ -11,7 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 800px;
+  max-width: 650px;
 }
 
 .page-description {
@@ -50,6 +50,8 @@ body {
 .route-name {
   font-size: 1em;
   text-align: center;
+  height: 10%;
+  width: 95%;
 }
 
 .route-thumbnail.landscape {
@@ -58,7 +60,7 @@ body {
 }
 
 .route-thumbnail.portrait {
-  max-width: 55%;
+  max-width: 57%;
   height: auto;
 }
 
