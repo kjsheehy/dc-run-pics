@@ -74,3 +74,21 @@ body {
 .route-info div {
   text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+  .page-title {
+    margin: 0;
+  }
+
+  .page-intro {
+    font-size: 0.75em;
+  }
+
+  .route-name {
+    font-size: 0.75em;
+  }
+
+  .route-info div {
+    font-size: 0.75em;
+  }
+}
