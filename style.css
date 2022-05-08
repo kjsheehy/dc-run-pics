@@ -38,7 +38,7 @@ body {
   border-color: black;
   border-style: solid;
   width: 30%;
-  height: 45%;
+  /* height: 45%; */
   margin: 1%;
 
   display: flex;
@@ -52,8 +52,13 @@ body {
   text-align: center;
 }
 
-.route-thumbnail {
+.route-thumbnail.landscape {
   max-width: 100%;
+  height: auto;
+}
+
+.route-thumbnail.portrait {
+  max-width: 55%;
   height: auto;
 }
 
